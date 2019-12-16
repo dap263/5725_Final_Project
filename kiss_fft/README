@@ -1,0 +1,2 @@
+compile kiss_fft using gcc -Wall -fPIC -c kiss_fft.c -o kiss_fft
+compile using gcc -Wall -fPIC -c fft.c kiss_fft.c -lm
